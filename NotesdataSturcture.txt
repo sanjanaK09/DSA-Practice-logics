@@ -1,0 +1,50 @@
+##what is data structures?
+#-->data structures are different ways of organizing data on your computer that can be used effectively
+
+##where to apply data structure?
+#-->middle level programing 
+
+##where is data structure used?
+#-->databases ,operating system , compiler , web browsers , social media, gaming
+
+
+##Cases
+#best case (big omega),
+# average case(big theta) ,
+# worst case(big O) 
+
+##O--types(big O notation tyes)
+#-->O(1)
+#-->O(N)
+#-->O(LogN)
+#-->O(N^2)
+#-->O(2^N)
+
+# O(1)-Constant time
+#array = [1,2,3,4,5]
+#array[0] // It takes constant time to access first element 
+
+# O(N)-Linear Time 
+#array = [1,2,3,4,5]
+#for element in array:
+#print(element) //linear time since it is visiting every element of array
+
+# O(LogN)-Logarithmic time //example-->binary search 
+# array = [1,2,3,4,5]
+# for index in range (o,len(array),3):
+#     print(array[index]) //logarithmic time since it is visiting only some elements 
+    
+# O(N^2)--Quadratic time
+# array =[1,2,3,4,5]
+# for x in array:
+#     for y in array:
+#         print(x,y)
+#// looking at a every index in the array twice 
+
+#O(2^N)-Exponential time 
+# def fibonacci(n):
+#     if n<=1:
+#         return n
+#     return fibonacci(n-1) + fibonacci(n-2)
+#// Double recursion in fibonacci 
+
