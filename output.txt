@@ -1,0 +1,1 @@
+A function in java is defined by a def statement java . The general syntax looks like this:def function name statements,i.e. the function body .The parameter java list consists of none or more parameters:"
